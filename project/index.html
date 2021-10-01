@@ -17,30 +17,32 @@
     </head>
     <body>
         <!--============================== Header ==============================-->
-        <header>
-            <img src="./assets/images/logo.svg" alt="logo" />
+        <header class="mainHeader">
+            <img src="./assets/images/logo.svg" alt="logo" class="mainHeader__logo" />
 
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#">home</a>
+            <img src="./assets/images/mobile/icon-hamburger.svg" alt="icon" class="mainHeader__mobileIcon" />
+
+            <nav class="mainHeader__navBar mainHeader__navBar--hidden">
+                <ul class="redirectListHeader">
+                    <li class="redirectListHeader__item">
+                        <a href="#" class="redirectListHeader__link">home</a>
                     </li>
-                    <li>
-                        <a href="#">about</a>
+                    <li class="redirectListHeader__item">
+                        <a href="#" class="redirectListHeader__link">about</a>
                     </li>
-                    <li>
-                        <a href="#">contact</a>
+                    <li class="redirectListHeader__item">
+                        <a href="#" class="redirectListHeader__link">contact</a>
                     </li>
-                    <li>
-                        <a href="#">blog</a>
+                    <li class="redirectListHeader__item">
+                        <a href="#" class="redirectListHeader__link">blog</a>
                     </li>
-                    <li>
-                        <a href="#">careers</a>
+                    <li class="redirectListHeader__item">
+                        <a href="#" class="redirectListHeader__link">careers</a>
                     </li>
                 </ul>
             </nav>
 
-            <button>request invite</button>
+            <button class="button button--hidden">request invite</button>
         </header>
 
         <!--============================== Main Content ==============================-->
@@ -58,7 +60,7 @@
                     budgeting, investing, and much more.
                 </p>
 
-                <button>request invite</button>
+                <button class="button">request invite</button>
             </section>
 
             <!--============================== Why Section ==============================-->
@@ -222,7 +224,7 @@
                 </ul>
             </div>
             <div>
-                <button>request invite</button>
+                <button class="button">request invite</button>
 
                 <p>&copy; easybank. all rights reserved</p>
             </div>

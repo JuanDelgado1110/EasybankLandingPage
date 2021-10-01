@@ -1,0 +1,33 @@
+.redirectListHeader {
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 90%;
+    margin: 2em auto 0;
+    border-radius: 0.3em;
+    padding: 1em 0;
+
+    &__item {
+        padding: 0.5em 0;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    &__link {
+        color: var(--text-color-title);
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .redirectListHeader {
+        width: auto;
+        margin: 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        &__link {
+            color: var(--text-color-paragraph);
+        }
+    }
+}
