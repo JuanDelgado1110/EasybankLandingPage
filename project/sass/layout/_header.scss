@@ -43,6 +43,7 @@
 
 @media screen and (min-width: 720px) {
     .mainHeader {
+        padding: 0.5em 1em;
         justify-content: space-evenly;
         align-items: center;
         background-color: var(--background-color-tertiary);
@@ -65,8 +66,7 @@
             height: auto;
             display: block;
             position: static;
-            border-radius: 0;
-            background: var(--background-color-tertiary);
+            background-color: var(--background-color-tertiary);
         }
     }
 }

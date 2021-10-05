@@ -2,11 +2,16 @@
 
 @import "base/tags";
 
-// Layout
-
-@import "layout/header";
-
 // Components
 
 @import "components/button";
 @import "components/lists";
+@import "components/titles";
+@import "components/paragraphs";
+
+// Layout
+
+@import "layout/header";
+@import "layout/mainContainer";
+@import "layout/presentation-section";
+@import "layout/why-us";
