@@ -25,12 +25,16 @@
     }
 
     &__subParagraph {
+        width: 90%;
+        margin: auto;
         margin-bottom: 1.5em;
     }
 }
 
 @media screen and (min-width: 720px) {
     .whyUsSection {
+        margin-bottom: 2em;
+
         &__content {
             flex-direction: row;
         }
@@ -47,6 +51,7 @@
 
         &__subParagraph {
             width: 90%;
+            margin: auto 0;
         }
 
         &__title,
