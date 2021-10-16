@@ -57,5 +57,17 @@
             width: 100%;
             height: 182px;
         }
+
+        &__author {
+            & .articleCard__link:hover {
+                color: var(--text-color-title);
+            }
+        }
+
+        &__title {
+            .articleCard__link:hover {
+                color: var(--color-hover);
+            }
+        }
     }
 }

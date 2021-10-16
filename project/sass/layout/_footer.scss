@@ -89,5 +89,9 @@
                 margin: 0;
             }
         }
+
+        &__link:hover {
+            color: var(--color-hover);
+        }
     }
 }
