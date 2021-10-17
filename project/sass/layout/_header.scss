@@ -1,20 +1,19 @@
 .mainHeader {
-    padding: 1.5em 1em;
+    padding: 1.2em 1em;
     position: sticky;
     top: 0px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     background-color: var(--background-color-secondary);
 
     &__navBar {
         height: 100vh;
-        width: 100%;
+        width: 100vw;
         background-image: var(--menu-background);
     }
 
     &__navBar--hidden,
-    & .button--hidden {
+    & .button {
         display: none;
     }
 
@@ -22,14 +21,6 @@
         position: absolute;
         top: 100%;
         left: 0;
-    }
-
-    & .button--show {
-        width: 60%;
-        display: block;
-        position: absolute;
-        top: 90vh;
-        left: 20%;
     }
 
     &__logo {
@@ -41,32 +32,49 @@
     }
 }
 
-@media screen and (min-width: 720px) {
-    .mainHeader {
-        padding: 0.5em 1em;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: var(--background-color-tertiary);
+// pasar el archivo de lists debajo del archivo de header para el responsive por la cascada
+.redirectListHeader {
+    width: 90%;
+    margin: 2em auto 0;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3em;
+    background-color: #fff;
 
-        & .button {
-            display: block;
-            // position: static;
-        }
+    &__item {
+        padding: 0.5em 0;
+        text-align: center;
+        text-transform: capitalize;
+    }
 
-        & .button--show {
-            width: auto;
-        }
-
-        &__mobileIcon {
-            display: none;
-        }
-
-        &__navBar {
-            width: 50%;
-            height: auto;
-            display: block;
-            position: static;
-            background-color: var(--background-color-tertiary);
-        }
+    &__link {
+        color: var(--text-color-title);
     }
 }
+
+// @media screen and (min-width: 768px) {
+//     .mainHeader {
+//         padding: 0.5em 1em;
+//         justify-content: space-evenly;
+//         align-items: center;
+//         background-color: var(--background-color-tertiary);
+
+//         & .button {
+//             display: block;
+//             // position: static;
+//         }
+
+//         &__mobileIcon {
+//             display: none;
+//         }
+
+//         &__navBar {
+//             width: 50%;
+//             height: auto;
+//             display: block;
+//             // position: static;
+//             background-color: var(--background-color-tertiary);
+//         }
+//     }
+// }

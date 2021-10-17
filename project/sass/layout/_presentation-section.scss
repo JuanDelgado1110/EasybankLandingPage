@@ -1,5 +1,5 @@
 .presentationSection {
-    margin-bottom: 10em;
+    margin-bottom: 6em;
     display: flex;
     flex-direction: column;
     background-image: url(../assets/images/mobile/bg-intro-mobile.svg);
@@ -7,15 +7,10 @@
     background-repeat: no-repeat;
     background-position-y: -4em;
 
-    &__title {
-        margin: 1em auto 0.5em;
-        font-size: 2.5rem;
-    }
-
-    &__paragraph {
+    &__image {
         width: 90%;
-        margin: 0 auto 2.5em;
-        line-height: 1.4em;
+        margin-top: -115px;
+        align-self: center;
     }
 
     &__description {
@@ -23,50 +18,56 @@
             margin-left: auto;
             margin-right: auto;
             display: block;
+            z-index: -10;
         }
     }
 
-    &__image {
-        width: 90%;
-        margin-top: -115px;
-        align-self: center;
+    &__title {
+        margin: 1em auto 0.5em;
+        font-size: 2.5rem;
     }
-}
 
-@media screen and (min-width: 720px) {
-    .presentationSection {
-        margin-bottom: 0;
-        flex-direction: row-reverse;
-        background-image: url(../assets/images/bg-intro.svg);
-        background-size: 80vw;
-        background-position: 350% 145%;
-        overflow: hidden;
-
-        &__title {
-            text-align: initial;
-            font-size: 2.5rem;
-        }
-
-        &__paragraph {
-            width: auto;
-            margin: 0 0 2em 0;
-            text-align: initial;
-        }
-
-        &__description {
-            width: 33%;
-            margin: 8% auto auto 0;
-
-            & .button {
-                margin-left: 0;
-                margin-right: auto;
-            }
-        }
-
-        &__image {
-            width: 55%;
-            margin-top: -85px;
-            margin-right: -95px;
-        }
+    &__paragraph {
+        margin: 0 auto 2.5em;
+        padding: 0 2em;
+        line-height: 1.4em;
     }
 }
+
+// @media screen and (min-width: 720px) {
+//     .presentationSection {
+//         margin-bottom: 0;
+//         flex-direction: row-reverse;
+//         background-image: url(../assets/images/bg-intro.svg);
+//         background-size: 80vw;
+//         background-position: 350% 145%;
+//         overflow: hidden;
+
+//         &__title {
+//             text-align: initial;
+//             font-size: 2.5rem;
+//         }
+
+//         &__paragraph {
+//             width: auto;
+//             margin: 0 0 2em 0;
+//             text-align: initial;
+//         }
+
+//         &__description {
+//             width: 33%;
+//             margin: 8% auto auto 0;
+
+//             & .button {
+//                 margin-left: 0;
+//                 margin-right: auto;
+//             }
+//         }
+
+//         &__image {
+//             width: 55%;
+//             margin-top: -85px;
+//             margin-right: -95px;
+//         }
+//     }
+// }
