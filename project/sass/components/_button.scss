@@ -9,20 +9,3 @@
     color: var(--background-color-primary);
     position: relative;
 }
-
-// @media screen and (min-width: 720px) {
-//     .button {
-//         padding: 0.8em 2.5em;
-
-//         &:hover::before {
-//             content: "";
-//             position: absolute;
-//             top: 0;
-//             left: 0;
-//             width: 100%;
-//             height: 100%;
-//             background-color: #9698a662;
-//             border-radius: 50px;
-//         }
-//     }
-// }

@@ -2,6 +2,7 @@
     margin-bottom: 6em;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     background-image: url(../assets/images/mobile/bg-intro-mobile.svg);
     background-size: 100vw;
     background-repeat: no-repeat;
@@ -33,41 +34,3 @@
         line-height: 1.4em;
     }
 }
-
-// @media screen and (min-width: 720px) {
-//     .presentationSection {
-//         margin-bottom: 0;
-//         flex-direction: row-reverse;
-//         background-image: url(../assets/images/bg-intro.svg);
-//         background-size: 80vw;
-//         background-position: 350% 145%;
-//         overflow: hidden;
-
-//         &__title {
-//             text-align: initial;
-//             font-size: 2.5rem;
-//         }
-
-//         &__paragraph {
-//             width: auto;
-//             margin: 0 0 2em 0;
-//             text-align: initial;
-//         }
-
-//         &__description {
-//             width: 33%;
-//             margin: 8% auto auto 0;
-
-//             & .button {
-//                 margin-left: 0;
-//                 margin-right: auto;
-//             }
-//         }
-
-//         &__image {
-//             width: 55%;
-//             margin-top: -85px;
-//             margin-right: -95px;
-//         }
-//     }
-// }
