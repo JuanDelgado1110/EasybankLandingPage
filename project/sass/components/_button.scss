@@ -1,0 +1,11 @@
+.button {
+    padding: 0.9em 2em;
+    border: none;
+    border-radius: 50px;
+    font-size: inherit;
+    font-weight: 700;
+    text-transform: capitalize;
+    background-image: var(--button-background);
+    color: var(--background-color-primary);
+    position: relative;
+}

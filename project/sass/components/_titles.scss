@@ -1,0 +1,13 @@
+.title {
+    font-weight: 700;
+}
+
+.subTitle {
+    font-weight: 400;
+}
+
+.title,
+.subTitle {
+    text-align: center;
+    color: var(--text-color-title);
+}

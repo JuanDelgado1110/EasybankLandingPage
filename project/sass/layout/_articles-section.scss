@@ -1,0 +1,35 @@
+.articlesSection {
+    margin-bottom: 4em;
+    display: grid;
+    gap: 1.3em;
+}
+
+.articleCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__image {
+        max-width: 90%;
+        margin-bottom: 1em;
+        border-radius: 0.5em 0.5em 0 0;
+    }
+
+    &__description {
+        width: 80%;
+    }
+
+    &__author {
+        font-size: 0.85rem;
+        color: var(--text-color-paragraph);
+    }
+
+    &__title {
+        margin-top: 0.5em;
+    }
+
+    &__title,
+    &__paragraph {
+        text-align: left;
+    }
+}

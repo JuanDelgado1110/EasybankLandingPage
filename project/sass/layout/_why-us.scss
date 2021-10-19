@@ -1,0 +1,34 @@
+.whyUsSection {
+    &__title {
+        margin: 0 0 0.8em;
+        padding: 0 1em;
+        font-size: 2rem;
+    }
+
+    &__subTitle {
+        font-size: 1.3rem;
+    }
+
+    &__paragraph {
+        margin: 0 auto 2em;
+        padding: 0 2em;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__benefit {
+        margin-bottom: 1.5em;
+    }
+
+    &__benefitImage {
+        margin: 0 auto;
+        display: block;
+    }
+
+    &__subParagraph {
+        padding: 0 2em;
+    }
+}

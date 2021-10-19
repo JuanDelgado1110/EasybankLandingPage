@@ -1,0 +1,36 @@
+.presentationSection {
+    margin-bottom: 6em;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-image: url(../assets/images/mobile/bg-intro-mobile.svg);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-position-y: -4em;
+
+    &__image {
+        width: 90%;
+        margin-top: -115px;
+        align-self: center;
+    }
+
+    &__description {
+        & .button {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            z-index: -10;
+        }
+    }
+
+    &__title {
+        margin: 1em auto 0.5em;
+        font-size: 2.5rem;
+    }
+
+    &__paragraph {
+        margin: 0 auto 2.5em;
+        padding: 0 2em;
+        line-height: 1.4em;
+    }
+}
